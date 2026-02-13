@@ -5,7 +5,37 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Creative Video & Art Services</title>
-  <style>
+
+ <style> .services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.service-card {
+background: white;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+text-align: center;
+transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+transform: translateY(-5px);
+}
+
+.service-card h3 {
+margin-bottom: 10px;
+color: #0b1f3a;
+}
+
+.price {
+font-size: 18px;
+font-weight: bold;
+color: #25D366;
+}
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -110,16 +140,13 @@
  <p>Professional Editing • Painting • Design</p>
   </header>
 
-  <section class="services">
-    <h2>My Services</h2>
-    <ul>
-      <li>Reel & Long Video Editing (Instagram / Facebook / YouTube)</li>
-      <li>Professional Thumbnail Editing</li>
-      <li>Truck & Sign Board Painting</li>
-      <li>Wall Art & Colour Designs</li>
-      <li>School & College Projects</li>
-    </ul>
-  </section><section>
+
+  </section>
+<h2>My Work Gallery</h2>
+
+<div class="gallery">
+<img src="WhatsApp Image 2026-02-11 at 9.47.08 PM.jpeg">
+
 <h2>My Work Gallery</h2>
 
 <div class="gallery">
