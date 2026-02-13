@@ -15,8 +15,26 @@
 .service-card {
   min-height: 140px;
 }
+.services-grid {<style>
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service-card {
+  min-height: 140px;
+}
+
 .services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
 </style>
+
 
 
 display: grid;
